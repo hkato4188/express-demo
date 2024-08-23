@@ -1,0 +1,54 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+.npm
+.bin
+.eslintcache
+.nyc_output
+.coverage
+.coveralls.json
+.jscoverage
+coverage
+lib-cov
+
+# Editor config files
+.editorconfig
+*.*.swp
+.DS_Store
+
+# IDE specific
+.idea
+.vscode
+.DS_Store
+
+# macOS
+.DS_Store
+
+# Windows visual studio
+.vs
+*.suo
+*.user
+*.sln
+
+# Build outputs
+build/
+dist/
+.webpack
+.parcel-cache
+
+# Test results
+test/coverage
+test/reports
+test/results
+
+# Local environment variables
+.env
+.env.development
+.env.test
+.env.production
+
+# Serverless framework
+.serverless/
+
+# Docker specific
+.dockerignore
